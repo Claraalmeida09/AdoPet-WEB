@@ -1,0 +1,58 @@
+name: adopet
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^2.1.0
+  brasil_fields: ^1.2.0
+  equatable: ^2.0.3
+  flutter_bloc: ^7.3.3
+  dartz: ^0.10.0
+  dio: ^4.0.1
+  get_it: ^7.2.0
+  shared_preferences: ^2.0.8
+  oktoast: ^3.1.5
+  font_awesome_flutter: ^9.2.0
+
+
+  
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+
+flutter:
+
+ 
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+  
+  fonts:
+    - family: Lora
+      fonts:   
+      - asset: assets/fonts/Lora-Medium.ttf
+        weight: 300
+      - asset: assets/fonts/Lora-Regular.ttf
+        weight: 400
+      - asset: assets/fonts/Lora-SemiBold.ttf
+        weight: 500
+        
+      - asset: assets/fonts/Lora-Bold.ttf
+        weight: 700
+
+  
+
