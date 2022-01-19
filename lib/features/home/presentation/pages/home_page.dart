@@ -68,7 +68,6 @@ class _HomePageState extends State<HomePage> {
           height: MediaQuery.of(context).size.height,
           child: Column(
             children: [
-              
               Row(
                 children: [
                   Container(
@@ -86,7 +85,6 @@ class _HomePageState extends State<HomePage> {
                     child: Container(
                       height: MediaQuery.of(context).size.height * .65,
                       color: ColorsAdoPet.white,
-
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -94,7 +92,6 @@ class _HomePageState extends State<HomePage> {
                             padding: const EdgeInsets.only(left: 12),
                             height: MediaQuery.of(context).size.height * .35,
                             width: 300,
-
                             child: Center(
                               child: Column(
                                 children: [
@@ -292,21 +289,6 @@ class _HomePageState extends State<HomePage> {
 
   List<PopupMenuItem<String>> _getActions() {
     return <PopupMenuItem<String>>[
-      // PopupMenuItem<String>(
-      //   value: 'editar_perfil',
-      //   child: Row(
-      //     children: [
-      //       const Icon(
-      //         Icons.account_circle_outlined,
-      //         color: ColorsAdoPet.blueLogo,
-      //       ),
-      //       const SizedBox(
-      //         width: 5,
-      //       ),
-      //       Text(TextsAdoPet.editUser, style: TextStyleAdoPet.bodyBold),
-      //     ],
-      //   ),
-      // ),
       PopupMenuItem<String>(
         value: 'logout',
         child: Row(
